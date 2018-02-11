@@ -59,7 +59,9 @@
   + The other is randomly generated 
 - Given a input x, compute MAD.A.DAM |
 
+---
 
+### MAD.A.DAM
 <p><span class="slide-title">MAD.A.DAM block</span></p>
 
 ```swift

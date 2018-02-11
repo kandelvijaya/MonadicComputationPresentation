@@ -37,14 +37,16 @@
 - Error Propagation [hard or ignored] |
 - True Type signature [ignored] |
 
+---
+
 ## 2 paradigm
 - OOP |
-  + Object for encapsulation, abstraction and composition |
-  + Profoundly used |
+  + Object for encapsulation, abstraction and composition 
+  + Profoundly used 
 - FP |
-  + function as encapsulation, abstraction and composition |
-  + Profoundly ignored |
-- Today we will get some inspiration from FP |
+  + function as encapsulation, abstraction and composition 
+  + Profoundly ignored 
+- Today we will get some inspiration from FP 
 
 ---
 

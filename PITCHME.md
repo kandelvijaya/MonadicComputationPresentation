@@ -20,14 +20,11 @@
 
 ## Problem
 
-- Code Presenting |
-- Repo Source, Static Blocks, GIST |
-- Custom CSS Styling |
-- Slideshow Background Image |
-- Slide-specific Background Images |
-- Custom Logo, TOC, and Footnotes |
+- URLSession's dataTask API |
+- Composing URLSession's dataTask is painful |
+- Type signature should be mathematical proof |
 
----?code=sample/go/server.go&lang=golang&title=Golang File
+---?code=code/code.playground/Sources/Problems.swift&lang=swift&title=Problems
 
 @[1,3-6](Present code found within any repo source file.)
 @[8-18](Without ever leaving your slideshow.)

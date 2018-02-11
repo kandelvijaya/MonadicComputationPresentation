@@ -59,10 +59,20 @@
   + The other is randomly generated 
 - Given a input x, compute MAD.A.DAM |
 
+---?code=code/code.playground/Sources/game_basic.swift&lang=swift&title=Game
+
+@[5-8](Roll a dice )
+@[10-14](multiply)
+@[15-19](Divide)
+@[20-24](Add)
+@[25-34](MADADAM program)
+
 ---
 
-### MAD.A.DAM
-<p><span class="slide-title">MAD.A.DAM block</span></p>
+---
+
+### Game
+<p><span class="slide-title">MAD.A.DAM</span></p>
 
 ```swift
   let x = getUserInput()

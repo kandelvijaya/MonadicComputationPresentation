@@ -46,20 +46,20 @@
 - FP |
   + function as encapsulation, abstraction and composition 
   + Profoundly ignored 
-- Today we will get some inspiration from FP 
+- Today we will get some inspiration from FP |
 
 ---
 
-## A Game to realise our journey
+### A Game to realise our journey
 - MAD.A.DAM game |
-  + M: Multiply |
-  + A: Add |
-  + D: Divide |
-  + These functions take 1 argument |
-  + The other is randomly generated |
+  + M: Multiply 
+  + A: Add 
+  + D: Divide 
+  + These functions take 1 argument 
+  + The other is randomly generated 
 - Given a input x, compute MAD.A.DAM |
 
-@title[MAD.A.DAM block]
+
 <p><span class="slide-title">MAD.A.DAM block</span></p>
 
 ```swift

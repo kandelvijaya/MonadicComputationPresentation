@@ -26,9 +26,9 @@
 
 ---?code=code/code.playground/Sources/Problems.swift&lang=swift&title=Problems
 
-@[1,3-6](URLSession's dataTask API with 3 optional parameters)
-@[8-18](Nested dataTask/ Callback hell)
-@[19-28](Type signate that lie)
+@[8-17](URLSession's dataTask API with 3 optional parameters)
+@[26-34](Nested dataTask/ Callback hell)
+@[41-52](Type signate that lie)
 
 ---
 

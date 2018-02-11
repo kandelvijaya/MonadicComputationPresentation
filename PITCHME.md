@@ -26,9 +26,9 @@
 
 ---?code=code/code.playground/Sources/Problems.swift&lang=swift&title=Problems
 
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
+@[1,3-6](URLSession's dataTask API with 3 optional parameters)
+@[8-18](Nested dataTask/ Callback hell)
+@[19-28](Type signate that lie)
 
 ---
 

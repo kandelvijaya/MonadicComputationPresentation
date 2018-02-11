@@ -18,19 +18,52 @@
 
 ---
 
-## Problem
+## Observation
 
 - URLSession's dataTask API |
 - Composing URLSession's dataTask is painful |
 - Type signature should be mathematical proof |
 
----?code=code/code.playground/Sources/Problems.swift&lang=swift&title=Problems
+---?code=code/code.playground/Sources/Problems.swift&lang=swift&title=Observation
 
 @[8-17](URLSession's dataTask API with 3 optional parameters)
 @[26-34](Nested dataTask/ Callback hell)
 @[41-52](Type signate that lie)
 
 ---
+
+## Problems
+- Composability [hard]
+- Error Propagation [hard or ignored]
+- True Type signature [ignored]
+
+## 2 paradigm
+- OOP
+  + Object for encapsulation, abstraction and composition
+  + Profoundly used
+- FP
+  + function as encapsulation, abstraction and composition
+  + Profoundly ignored
+- Today we will get some inspiration from FP
+
+## A Game to realise our journey
+- MAD.A.DAM
+  + M: Multiply
+  + A: Add
+  + D: Divide
+  + These functions take 1 argument
+  + The other is randomly generated
+- Given a input x, compute MAD.A.DAM
+
+@title[MAD.A.DAM block]
+<p><span class="slide-title">MAD.A.DAM block</span></p>
+
+```swift
+  let x = getUserInput()
+  let output = m(a(d(a(d(a(m(x)))))))
+```
+
+## Functional Programming and the Monad
 
 @title[JavaScript Block]
 

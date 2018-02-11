@@ -33,27 +33,29 @@
 ---
 
 ## Problems
-- Composability [hard]
-- Error Propagation [hard or ignored]
-- True Type signature [ignored]
+- Composability [hard] |
+- Error Propagation [hard or ignored] |
+- True Type signature [ignored] |
 
 ## 2 paradigm
-- OOP
-  + Object for encapsulation, abstraction and composition
-  + Profoundly used
-- FP
-  + function as encapsulation, abstraction and composition
-  + Profoundly ignored
-- Today we will get some inspiration from FP
+- OOP |
+  + Object for encapsulation, abstraction and composition |
+  + Profoundly used |
+- FP |
+  + function as encapsulation, abstraction and composition |
+  + Profoundly ignored |
+- Today we will get some inspiration from FP |
+
+---
 
 ## A Game to realise our journey
-- MAD.A.DAM
-  + M: Multiply
-  + A: Add
-  + D: Divide
-  + These functions take 1 argument
-  + The other is randomly generated
-- Given a input x, compute MAD.A.DAM
+- MAD.A.DAM game |
+  + M: Multiply |
+  + A: Add |
+  + D: Divide |
+  + These functions take 1 argument |
+  + The other is randomly generated |
+- Given a input x, compute MAD.A.DAM |
 
 @title[MAD.A.DAM block]
 <p><span class="slide-title">MAD.A.DAM block</span></p>
@@ -62,6 +64,8 @@
   let x = getUserInput()
   let output = m(a(d(a(d(a(m(x)))))))
 ```
+
+---
 
 ## Functional Programming and the Monad
 
